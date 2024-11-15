@@ -3,6 +3,8 @@ import hogs from "./porker_data";
 import Nav from "./Nav";
 import HogList from "./HogList";
 import AddHogForm from "./AddHogForm";
+import 'semantic-ui-css/semantic.min.css';
+
 
 function App() {
     const [hogData, setHogData] = useState(hogs);
